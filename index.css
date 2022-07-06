@@ -12,6 +12,7 @@ header{
     align-items: center;
     box-shadow: 0 2px 10px #888888;
     background-color: rgb(255, 255, 255);
+    z-index:4;
 }
 header li{
     list-style: none;
@@ -38,7 +39,7 @@ header img{
 .container_servicos{
     display: flex;
     justify-content: space-between;
-    margin-top: 10vw;
+    margin-top: 20vw;
 }
 .servicos_text{
     max-width: 40vw;
@@ -71,3 +72,31 @@ header img{
     width: 30vw;
 }
 /* Serviços */
+/* Sobre */
+.container_sobre{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vw;
+    align-items: center;
+}
+.sobre_text{
+    max-width: 45vw;
+    margin: 0 0 0 3vw;
+}
+.sobre_text h1{
+    font-size: 3vw;
+    text-align: end;
+}
+.sobre_text p{
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    color: rgba(0, 0, 0, 0.863);
+    text-align: justify;
+}
+.sobre_imagens img{
+    width: 45vw;
+    margin: 0 3vw 0 0;
+    border-radius: 2vw;
+}
+/* Sobre */
